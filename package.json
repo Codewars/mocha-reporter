@@ -1,0 +1,40 @@
+{
+  "name": "@codewars/mocha-reporter",
+  "version": "1.0.0",
+  "description": "Codewars reporter for Mocha",
+  "license": "MIT",
+  "homepage": "https://github.com/codewars/mocha-reporter#readme",
+  "repository": "https://github.com/codewars/mocha-reporter",
+  "bugs": {
+    "url": "https://github.com/codewars/mocha-reporter/issues"
+  },
+  "main": "lib/codewars-reporter.js",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "test": "ts-mocha tests/codewars-reporter.spec.ts",
+    "prepare": "tsc",
+    "watch": "tsc --watch"
+  },
+  "peerDependencies": {
+    "mocha": ">=8.x"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^7.0.2",
+    "chai": "^4.2.0",
+    "execa": "^4.0.3",
+    "husky": "^4.2.5",
+    "mocha": "^8.0.1",
+    "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1",
+    "ts-mocha": "^7.0.0",
+    "typescript": "^3.9.6"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}

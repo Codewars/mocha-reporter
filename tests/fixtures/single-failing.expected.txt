@@ -1,0 +1,10 @@
+
+<DESCRIBE::>group 1
+
+<IT::>test 1
+
+<FAILED::>Expected values to be strictly equal:<:LF:><:LF:>1 !== 2<:LF:>
+
+<COMPLETEDIN::>1
+
+<COMPLETEDIN::>1

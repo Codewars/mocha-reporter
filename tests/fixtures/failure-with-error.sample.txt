@@ -1,0 +1,10 @@
+
+<DESCRIBE::>group 1
+
+<IT::>test 1
+
+<ERROR::>Error: error<:LF:>    at Context.<anonymous> (tests/fixtures/failure-with-error.js:3:11)<:LF:>    at processImmediate (internal/timers.js:456:21)
+
+<COMPLETEDIN::>0
+
+<COMPLETEDIN::>0
